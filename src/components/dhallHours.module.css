@@ -1,0 +1,8 @@
+.dhallHourText {
+    font-size: 3em;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px;
+    border-radius: 2px;
+}
