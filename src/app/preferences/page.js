@@ -3,7 +3,7 @@ import styles from "./preferences.module.css";
 export default function Preferences() {
     return (
         <div className={styles.body}>
-            <h1>Show Checkboxes</h1>
+            <h1>Notifications Preferences</h1>
             <form action="/action_page.php"> 
                 <input type="checkbox" id="email" name="email" className={styles.checkbox} />
                 <label htmlFor="email" className={styles.input}>Email Notifications?</label><br/>

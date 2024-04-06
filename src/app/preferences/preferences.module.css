@@ -23,13 +23,12 @@
 .button {
     background-color: red; 
     color: white; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: none; 
-    padding: 10px 20px;
     cursor: pointer; 
-    border-radius: 5px; 
+    border-radius: 8px; 
+    padding: 12px 25px;
+    top: 90%;
+    margin-left: 50%;
 }
 
 .button:hover {
