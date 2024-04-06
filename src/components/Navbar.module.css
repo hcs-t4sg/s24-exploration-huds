@@ -1,0 +1,60 @@
+.Nav {
+    display: flex;
+    justify-content: center; /* This centers the .NavContent container */
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    background-color: rgb(36, 16, 1);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .NavContent {
+    display: flex;
+    justify-content: space-between; /* This will add space between the navigation items */
+    width: 90%; /* Adjust the width as necessary */
+    margin: 0 auto; /* This centers the .NavContent inside the .Nav */
+  }
+  
+  
+  
+  /* Add any additional styling for .Nav-content if needed */
+  
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+  
+  
+  .nav a {
+    margin-right: 10px;
+    color: inherit; /* Inherit text color */
+/* Add a black background color to the top navigation */
+/* .Navbar {
+    background-color: 300;
+    overflow: hidden;
+
+  } */
+  
+  /* Style the links inside the navigation bar */
+/* .Navbar a {
+    float: left;
+    color: purple;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+  } */
+  
+  /* Change the color of links on hover
+  .Navbar a:hover {
+    background-color: ddd;
+    color: rgb(97, 6, 6);
+  } */
+  
+  /* Add a color to the active/current link
+  .Navbar a.active {
+    background-color: blue;
+    color: purple;
+  } */

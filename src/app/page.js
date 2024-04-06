@@ -1,6 +1,8 @@
+import Navbar from "@/components/Navbar"
 import styles from "./page.module.css";
 import { getFormattedDate } from "@/lib/utils";
 import axios from "axios";
+import DhallHours from "@/components/dhallHours";
 
 export default async function Home() {
   const breakfastMeals = [];
@@ -33,6 +35,8 @@ export default async function Home() {
 
   return (
     <div className={styles.main}>
+      <Navbar></Navbar>
+      <DhallHours></DhallHours>
       <h1>Breakfast</h1>
       <ul>
         {breakfastMeals.map((meal) => (
