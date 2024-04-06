@@ -1,0 +1,38 @@
+.checkbox {
+    width: 25px;
+    height: 25px;
+    color: pink;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    flex-direction: column; 
+}
+
+.input {
+    font-size: 19px; 
+}
+
+.button {
+    background-color: red; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+
