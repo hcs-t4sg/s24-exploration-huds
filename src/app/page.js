@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import { getFormattedDate } from "@/lib/utils";
 import axios from "axios";
+import React from 'react';
 
 export default async function Home() {
   const breakfastMeals = [];

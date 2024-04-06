@@ -1,0 +1,129 @@
+
+.hoursbox {
+  width: 70%;
+ padding: 5px;
+ background-color: #A41034;
+ border: 1px solid #A41034;
+ border-radius: 10px;
+ margin-left: 20px;
+}
+  
+  .hoursbox h1 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+  }
+
+.housebox {
+    margin-left: 400px;
+    box-align: left;
+}
+  .housebox h1 {
+   font-size:50px;
+   color: black;
+   text-align: left
+   
+}
+.soupcard, .entreecard, .dessertcard {
+  width: 270px;
+  height: auto;
+  background-color: #A41034;
+  border: 1px solid #A41034;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+  .soupcard .soupimage, .entreecard .entreeimage, .dessertcard .dessertimage {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.cardsContainer {
+  display:flex;
+  gap: 95px;
+}
+.updatebutton {
+  width: 50%;
+ padding: 5px;
+ background-color: #ababab;
+ border: 1px solid #A41034;
+ border-radius: 10px;
+ margin-left: 170px;
+ margin-top: 100px;
+ align-items: bottom;
+
+
+}
+  
+  .updatebutton h1 {
+    font-size: 20px;
+    color: #A41034;
+    text-align: center;
+  }
+.newsbox {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  width:20%;
+  background-color: #A41034;
+  margin-right: 20px;
+  margin-top: 190px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+  .newsbox h1 {
+    font-size: 25px;
+    color: white;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0 0;
+  }
+  .newsinfo {
+    width: 100%; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    color: black; 
+    font-size: 16px; 
+    background-color: white;
+    border: 1px solid #A41034;
+    border-radius: 0 0 10px 10px;    
+    border-top: none;
+  }
+
+.interhousehours {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  width:20%;
+  background-color: #A41034;
+  margin-right: 20px;
+  margin-top: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+  .interhousehours h1 {
+    font-size: 25px;
+    color: white;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0 0;
+}
+  .interhouses {
+    width: 100%; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    color: black; 
+    font-size: 16px; 
+    background-color: white;
+    border: 1px solid #A41034;
+    border-radius: 0 0 10px 10px;    
+    border-top: none;
+  }
