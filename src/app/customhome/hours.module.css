@@ -49,22 +49,33 @@
 }
 .updatebutton {
   width: 50%;
- padding: 5px;
- background-color: #ababab;
- border: 1px solid #A41034;
- border-radius: 10px;
- margin-left: 170px;
- margin-top: 100px;
- align-items: bottom;
-
-
+  padding: 10px; /* Increased padding for better spacing */
+  background-color: #ababab;
+  border: 2px solid #a41034; /* Adjusted border thickness */
+  border-radius: 10px;
+  margin-top: 100px; /* Centering the button horizontally and adjusting top margin */
+  margin-left: 170px;
+  text-align: center; /* Aligning text horizontally */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for color changes */
 }
-  
-  .updatebutton h1 {
-    font-size: 20px;
-    color: #A41034;
-    text-align: center;
-  }
+
+.updatebutton button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #a41034;
+}
+
+.updatebutton:hover {
+  background-color: #a41034; /* Change background color on hover */
+}
+
+.updatebutton:hover button {
+  color: white; /* Change text color to white on hover */
+}
+
 .newsbox {
   position: absolute;
   top: 0; 
@@ -127,3 +138,20 @@
     border-radius: 0 0 10px 10px;    
     border-top: none;
   }
+  @media (max-width: 1080px) {
+    .newsbox,
+    .interhousehours {
+      display: none;
+    }
+    .hoursbox {
+      width: 100%;
+      margin-left: 0px;
+    }
+    .housebox {
+      margin-left: 225px;
+    }
+    .updatebutton {
+      margin-left: 220px;
+    }
+  }
+  

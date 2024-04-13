@@ -1,6 +1,8 @@
 import styles from "./hours.module.css";
+import * as React from 'react';
 
-export default function customhome() {
+
+export default function customhome () {
   return (
     <div>
       <div className={styles.housebox}>
@@ -43,8 +45,10 @@ export default function customhome() {
       </div>
 
       <div className={styles.updatebutton}>
-        <h1>Propose a Menu Update!</h1>
-      </div>
+  <a href="http://localhost:3000/updateform">
+    <button>Propose a Menu Update!</button>
+  </a>
+</div>
 
       <div className={styles.newsbox}>
         <div className={styles.livenews}>
@@ -69,7 +73,7 @@ export default function customhome() {
                 <li>Dunster</li>
                 <li>Eliot</li>
                 <li>Mather</li>
-                <li>Leverett (with reisdent)</li>
+                <li>Leverett (with resident)</li>
                 <li>Quincy (with resident)</li>
             </ul>
         </div>
