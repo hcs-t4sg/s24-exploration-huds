@@ -1,30 +1,61 @@
 .inputcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px; 
-    margin-top: 100px;
-  }
-  
-  .inputcontainer div {
-    width: 350px; 
-    padding: 8px;
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-    box-sizing: border-box;
-    
-  }
-  
-  .inputcontainer button {
-    padding: 8px 16px;
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-    background-color: #a59898; 
-    cursor: pointer;
-    align-items: center;
-  }
-  
-.heading {
-    text-align: center;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 100px;
 }
+
+.inputcontainer > div, .inputcontainer > button {
+  width: 350px;
+  padding: 8px;
+  margin-top: 10px; /* Ensure space between form controls */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.inputcontainer button {
+  padding: 8px 16px;
+  border: none; /* Simplify the button border */
+  border-radius: 5px;
+  background-color: #a59898;
+  cursor: pointer;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* Increase if needed */
+  visibility: hidden;
+}
+
+.overlay.active {
+  visibility: visible;
+}
+
+.overlayContent {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overlayButton {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+

@@ -1,15 +1,21 @@
+"use client"
+
 import styles from "./hours.module.css";
 import * as React from 'react';
 
 
 export default function customhome () {
+  const redirectToHoursPage = () => {
+    window.location.href = "https://dining.harvard.edu/campus-dining/undergraduate-dining/hours-interhouse-restrictions";
+  };
+
   return (
     <div>
       <div className={styles.housebox}>
         <h1>Kirkland House</h1>
       </div>
 
-      <div className={styles.hoursbox}>
+       <div className={styles.hoursbox} onClick={redirectToHoursPage} style={{ cursor: 'pointer' }}>
         <h1>Open for Brunch until 2:00 pm</h1>
       </div>
 
@@ -45,10 +51,10 @@ export default function customhome () {
       </div>
 
       <div className={styles.updatebutton}>
-  <a href="http://localhost:3000/updateform">
+  <a href="http://localhost:3000/UpdateForm">
     <button>Propose a Menu Update!</button>
-  </a>
-</div>
+      </a>
+      </div>
 
       <div className={styles.newsbox}>
         <div className={styles.livenews}>
